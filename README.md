@@ -1,24 +1,27 @@
-# recursive-arrays
+# Vue arrays
 
-## Project setup
-```
-yarn install
-```
+Used stack: Vue, TypeScript.
+- [DEMO LINK](https://vlad-shulzhenko.github.io/vue-arrays/)
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Description
 
-### Compiles and minifies for production
-```
-yarn build
-```
+This app demonstrates an array with the "unknown" depth of children.
+Each child has a corresponding indent.
 
-### Lints and fixes files
-```
-yarn lint
-```
+## Local development
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Dependencies
+* Node v16.15.0 and higher
+* Yarn v1.22.18 and higher
+
+
+### Installing
+* Fork and clone this repository
+* Go to folder `vue-arrays`
+* Run `yarn install` in your terminal
+* Run `yarn start` in your terminal to run `app`
+
+## Troubleshooting
+
+Any advise for common problems or issues.
+For any contributing or problem solving you could find me [here](https://t.me/shulzhenkovlad).
