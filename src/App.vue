@@ -1,16 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+  <ArrayList :array-list="resultArray" />
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
+import array from "@/api/array.json";
+import ArrayList from "@/components/ArrayList.vue";
 
 export default defineComponent({
   name: "App",
   components: {
-    HelloWorld,
+    ArrayList,
+  },
+
+  setup() {
+    return { resultArray: array };
   },
 });
 </script>
